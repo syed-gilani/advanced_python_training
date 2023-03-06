@@ -3,7 +3,7 @@ history = []
 
 def print_history(history):
     for command in history:
-        print(f"ID: {command['id']}, Operator: {command['opName']}, Operand: {command['operand']}")
+        print(f"ID: {command['id']}, Operator: {command['opName']}, Operand: {command['opValue']}")
 
 def get_history_id(history):
     next_id = 1
